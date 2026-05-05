@@ -9,27 +9,27 @@ export type CustomError={
 };
 
 export type MessageResponse={
-    sucess:boolean;
+    success:boolean;
     message:string;
 };
 
 export type AllUsersResponse={
-    sucess:boolean;
+    success:boolean;
     users:User[];
 };
 
 export type UserResponse={
-    sucess:boolean;
+    success:boolean;
     user:User;
 };
 
 export type AllProductsResponse={
-    sucess:boolean;
+    success:boolean;
     products:Product[];
 };
 
 export type CategoriesResponse={
-    sucess:boolean;
+    success:boolean;
     categories:string[];
 };
 
@@ -46,16 +46,16 @@ export type searchProductsRequest ={
 };
 
 export type ProductResponse={
-    sucess:boolean;
+    success:boolean;
     product:Product;
 };
 
 export type AllOrdersResponse={
-    sucess:boolean;
+    success:boolean;
     orders:Order[];
 };
 export type OrderDetailsResponse={
-    sucess:boolean;
+    success:boolean;
     order:Order;
 };
 export type StatsResponse={

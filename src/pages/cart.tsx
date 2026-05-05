@@ -64,11 +64,11 @@ const Cart = () => {
       cancel();
       setIsValidCouponCode(false);
     }
-  }, [couponCode])
+  }, [couponCode, dispatch])
 
   useEffect(()=>{
     dispatch(calculatePrice());
-  },[cartItems]);
+  },[cartItems, dispatch]);
 
   return (
     <div className="cart">
